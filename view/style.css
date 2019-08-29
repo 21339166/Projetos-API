@@ -1,0 +1,33 @@
+body{
+    background-image: url(img/cpf.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+    bottom: 0;
+    color: black;
+    left: 0;
+    overflow: auto;
+    right: 0;
+    top: 0;
+ }
+
+.btn{
+    border: 1px solid #CCCCCE;
+    border-radius: 8px;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    width: 150px;
+    background-color: rgb(30, 150, 230);
+}
+
+.border{
+    width:400px;
+    height:635px;
+    border:solid 01px;
+    border-radius:30px;
+    border-color: white;
+}
+
+.btn:hover{
+    background-color: orange;
+}

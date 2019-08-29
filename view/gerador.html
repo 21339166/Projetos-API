@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Gerador e validador de CPF</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src = "http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.4/angular.min.js"></script>
+</head>
+
+<body ng-app="myApp">
+
+	<div ng-controller="CpfController as vm">
+		{{ vm.myTitle }}
+	</div>
+
+	<div class="border">
+		<h1 style="color: white">Gerador e validador de CPF</h1><br/>
+
+		<form name="form1" method="post" action="">
+			<label for="numero"></label> <input name="numero" id="numero" /><br /><br />
+			<input class="btn" name="button" value="Gerar" onclick="gera()" type="button"><br /><br />
+
+			<div>
+				<input id="valid" class="input" type="text" name="cpf" size="12" maxlength="11"><br /><br />
+				<input class="btn" type="button" name="Submit" value="Validar" onclick="VerificaCPF();"><br />
+			</div>
+		</form>
+	</div>
+	<script type="text/javascript" src="gerador.js"></script>
+	<script type="text/javascript" src="validador.js"></script>
+
+	<!-- //importando o angular -->
+	
+	<script src = "../app.js"></script>
+	<script src = "../src/controllers/CpfController.js"></script>
+
+</body>
+
+</html>
