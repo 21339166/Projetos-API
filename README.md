@@ -1,6 +1,1 @@
-Install dependencies 
-  $ npm i -g
-  
-Run project
-  $ npm start
-  
+Generatetion and validation of cpf
