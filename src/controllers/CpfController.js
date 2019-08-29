@@ -15,8 +15,3 @@ module.expors = {
 
 module.exports = router;
 
-function CpfController(){
-    var vm = this;
-    this.myTitle = 'GeradorCpf';
-}
-
